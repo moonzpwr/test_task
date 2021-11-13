@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: right;
+  width: 250px;
+}
+
+.tel {
+  margin-bottom: 15px;
+}
+
+.pas {
+  margin-bottom: 15px;
+}
+
+.err {
+  color: red;
+}

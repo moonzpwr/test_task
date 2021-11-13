@@ -1,0 +1,57 @@
+.container {
+  margin-top: 100px;
+}
+
+.item {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #1976d26e;
+  padding: 0px 10px 0px 10px;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.title {
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.body {
+  text-align: left;
+}
+
+.appear {
+  opacity: 0;
+  transform: translateX(-50%);
+}
+.appearActive {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 500ms ease;
+}
+
+.enter {
+  opacity: 0;
+  transform: scale(0);
+}
+.enterActive {
+  opacity: 1;
+  transform: scale(1);
+  transition: all 500ms ease;
+}
+
+.exit {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.exitActive {
+  opacity: 0;
+  transform: scale(0);
+  transition: all 500ms ease;
+}
+
+.err {
+  color: red;
+}

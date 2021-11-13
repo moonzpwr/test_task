@@ -1,0 +1,24 @@
+.container {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.container h1 {
+  color: black;
+  font-family: sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  padding-top: 150px;
+}
+
+.appear {
+  opacity: 0;
+  transform: translateX(-50%);
+}
+.appearActive {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 500ms ease;
+}

@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  background-color: #eaedf2;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
